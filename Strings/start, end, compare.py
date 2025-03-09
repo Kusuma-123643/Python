@@ -1,0 +1,7 @@
+#startsWith(), endsWith() and compareTo() 
+n = input()
+p = input()
+s= input()
+print("Starts with:", n.startswith(p))
+print("Ends with:", n.endswith(s))
+print("String Comparison:", "Equal" if n == p else "Not Equal")

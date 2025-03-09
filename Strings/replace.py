@@ -1,0 +1,6 @@
+# Replacing characters in strings with replace()
+s = input()
+old = input()
+new = input()
+modified = s.replace(old, new)
+print("Modified String:", modified)

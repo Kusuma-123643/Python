@@ -1,0 +1,5 @@
+#Splitting strings with split()
+s = input()
+n = input()
+split_strings = s.split(n)
+print("Split Strings:", split_strings)
